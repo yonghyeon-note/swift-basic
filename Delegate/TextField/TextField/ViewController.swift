@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
 
         /* 텍스트 필드 속성 설정 */
-        self.textField.placeholder = "값을 입력하세요"                     // 안내 메시지
+        self.textField.placeholder = "값을 입력하세요"                   // 안내 메시지
         self.textField.keyboardType = UIKeyboardType.alphabet          // 키보드 타입 영문자 패드로
         self.textField.keyboardAppearance = UIKeyboardAppearance.dark  // 키보드 스타일 어둡게
         self.textField.returnKeyType = UIReturnKeyType.join            // 리턴 키 타입은 "Join"
